@@ -1,0 +1,49 @@
+// reset code 
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+$header-bgcolor:red;
+$main-bgcolor:#868655;
+$footer-bgcolor:rgb(189, 84, 84);
+
+header{
+    background: $header-bgcolor;
+}
+nav{
+    margin-top: 20px;
+    background:red;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+            a{
+                text-decoration: none;
+                display: inline-block;
+                color: #fff;
+                font-size: 15px;
+                padding: 15px;
+                border-radius: 10px;
+                transition: all .3s linear;
+            }
+        a:hover{
+                background: #000;
+                }
+           
+        }
+    }
+}
+
+
+
+
+
+main{
+    background:$main-bgcolor;
+}
+footer{
+    background: $footer-bgcolor;
+}

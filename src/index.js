@@ -3,12 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PaginatedItems from './Components/Pagination/PaginatedItems';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <PaginatedItems itemsPerPage={4} />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  document.getElementById('container')
 );
 
 // If you want to start measuring performance in your app, pass a function

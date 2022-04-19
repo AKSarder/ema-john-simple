@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background: red;
+}
+
+nav {
+  margin-top: 20px;
+  background: red;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+nav ul li a:hover {
+  background: #000;
+}
+
+main {
+  background: #868655;
+}
+
+footer {
+  background: #bd5454;
+}
+/*# sourceMappingURL=demo.css.map */
